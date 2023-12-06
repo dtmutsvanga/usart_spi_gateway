@@ -37,10 +37,10 @@ BUILD_DIR = build
 # C sources
 C_SOURCES =  \
 Core/Src/main.c \
-Core/Src/spi.c \
 Core/Src/sys.c \
-Core/Src/usart.c \
-Core/Src/app_usart_spi_gateway.c \
+Core/Src/app_usart_spi_gateway/spi.c \
+Core/Src/app_usart_spi_gateway/usart.c \
+Core/Src/app_usart_spi_gateway/app_usart_spi_gateway.c \
 Core/Src/freertos.c \
 Core/Src/stm32f4xx_it.c \
 Core/Src/stm32f4xx_hal_msp.c \
@@ -134,6 +134,7 @@ AS_INCLUDES =  \
 # C includes
 C_INCLUDES =  \
 -ICore/Inc \
+-ICore/Inc/app_usart_spi_gateway \
 -IDrivers/STM32F4xx_HAL_Driver/Inc \
 -IDrivers/STM32F4xx_HAL_Driver/Inc/Legacy \
 -IMiddlewares/Third_Party/FreeRTOS/Source/include \

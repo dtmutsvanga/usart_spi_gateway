@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "showDevDebugOutput": "parsed",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/USART_SPI_Gateway.elf",
+            "name": "Debug STM32",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "jlink",
+            //"serverpath": "C:/Program Files/SEGGER/JLink/JLinkGDBServerCL.exe",
+             //"serverpath": "C:\\Program Files\\SEGGER\\JLink_V792h/JLinkGDBServerCL.exe",
+            "serverpath": "C:/Program Files (x86)/SEGGER/JLink_V612j/JLinkGDBServerCL.exe",
+            "preLaunchTask": "Build STM",
+            "device": "STM32F407VG",
+            "svdFile": "C:\\Users\\Dan\\Desktop\\Embedded\\SVD\\stm32-svd\\svd\\stm32f407.svd",
+            "configFiles": [
+                "openocd.cfg"
+            ],
+            "interface": "swd",
+        },
+        {
+            "showDevDebugOutput": "parsed",
+            "cwd": "${workspaceRoot}",
+            "executable": "./build/USART_SPI_Gateway.elf",
+            "name": "Attach STM32",
+            "request": "attach",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "preLaunchTask": "Build STM",
+            "device": "stm32f407",
+            "configFiles": [
+                "openocd.cfg"
+            ]
+        }
+    ]
+} 

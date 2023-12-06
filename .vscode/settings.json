@@ -1,0 +1,14 @@
+{
+    "stm32-for-vscode.openOCDPath": "C:\\USERS\\DAN\\APPDATA\\ROAMING\\CODE\\USER\\GLOBALSTORAGE\\BMD.STM32-FOR-VSCODE\\@XPACK-DEV-TOOLS\\OPENOCD\\0.12.0-2.1\\.CONTENT\\BIN\\OPENOCD.EXE",
+    "stm32-for-vscode.makePath": "C:\\USERS\\DAN\\APPDATA\\ROAMING\\CODE\\USER\\GLOBALSTORAGE\\BMD.STM32-FOR-VSCODE\\@XPACK-DEV-TOOLS\\WINDOWS-BUILD-TOOLS\\4.4.1-2.1\\.CONTENT\\BIN\\MAKE.EXE",
+    "cortex-debug.armToolchainPath": "c:\\Users\\Dan\\AppData\\Roaming\\Code\\User\\globalStorage\\bmd.stm32-for-vscode\\@xpack-dev-tools\\arm-none-eabi-gcc\\13.2.1-1.1.1\\.content\\bin",
+    "cortex-debug.openocdPath": "C:\\USERS\\DAN\\APPDATA\\ROAMING\\CODE\\USER\\GLOBALSTORAGE\\BMD.STM32-FOR-VSCODE\\@XPACK-DEV-TOOLS\\OPENOCD\\0.12.0-2.1\\.CONTENT\\BIN\\OPENOCD.EXE",
+    "files.associations": {
+        "cmsis_os.h": "c",
+        "main.h": "c",
+        "stm32f4xx_hal.h": "c",
+        "usart.h": "c",
+        "usart_spi_gateway.h": "c",
+        "app_usart_spi_gateway.h": "c"
+    }
+}

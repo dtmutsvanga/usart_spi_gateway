@@ -36,16 +36,16 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
-Core/Src/app_usart_spi_gateway.c \
 Core/Src/freertos.c \
 Core/Src/main.c \
-Core/Src/spi.c \
 Core/Src/stm32f4xx_hal_msp.c \
 Core/Src/stm32f4xx_hal_timebase_tim.c \
 Core/Src/stm32f4xx_it.c \
 Core/Src/sys.c \
 Core/Src/system_stm32f4xx.c \
-Core/Src/usart.c \
+Core/Src/usart_spi_gateway/app_usart_spi_gateway.c \
+Core/Src/usart_spi_gateway/spi.c \
+Core/Src/usart_spi_gateway/usart.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c \
 Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c \
@@ -145,6 +145,8 @@ AS_INCLUDES = \
 # C includes
 C_INCLUDES =  \
 -ICore/Inc \
+-ICore/Inc/app_usart_spi_gateway \
+-ICore/Src/usart_spi_gateway \
 -IDrivers/CMSIS/Device/ST/STM32F4xx/Include \
 -IDrivers/CMSIS/Include \
 -IDrivers/STM32F4xx_HAL_Driver/Inc \

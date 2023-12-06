@@ -159,7 +159,7 @@ To use this project, you need to have the following:
 Please ensure you have the following dependencies installed on your system:
 
 
-### 🔧 Installation
+### 🔧 Building and Flashing in VSCode
 To install the project, follow these steps:
 -  Clone the usart_spi_gateway repository:
    ```sh
@@ -176,6 +176,12 @@ To install the project, follow these steps:
             "servertype": "jlink",
             "serverpath": "C:/path/to/JLink/JLinkGDBServerCL.exe",
             "svdFile": "C:/path/to/STM32F407.svd"
+    ```
+
+### 🔧 Building using make
+ - to build the projct using make, run the following commnd from terminal 
+    ```sh
+    make -j16 -f STM32Make.make
     ```
 
 ## 🛣 Project Roadmap

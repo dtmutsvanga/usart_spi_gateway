@@ -83,7 +83,7 @@
 ---
 ---
 ## 📂 Repository Structure
-
+The red directories are the main files implemented for the gateway. 
 ```sh
 └── usart_spi_gateway/
     ├── .clang-format
@@ -95,13 +95,13 @@
     │   │   ├── stm32f4xx_hal_conf.h
     │   │   └── stm32f4xx_it.h
     │   └── Src/
-    │       ├── app_usart_spi_gateway/          
-    |       |   ├── app_usart_spi_gateway.h     
-    |       |   ├── app_usart_spi_gateway.c
-    |       |   ├── spi.c
-    |       |   ├── spi.h
-    |       |   ├── usart.c
-    |       |   ├── usart.h
+    |       |── app_usart_spi_gateway/          
+    |       |   |── app_usart_spi_gateway.h     
+    |       |   |── app_usart_spi_gateway.c
+    |       |   |── spi.c
+    |       |   |── spi.h
+    |       |   |── usart.c
+    |       |   |── usart.h
     │       ├── freertos.c
     │       ├── main.c
     │       ├── stm32f4xx_hal_msp.c

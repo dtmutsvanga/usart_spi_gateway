@@ -34,7 +34,7 @@
 
 ## 📍 Overview
 
-► This is a bidirectional USART SPI gateway implemented on the STM32F407 using FreeRTOS. It uses USART2 and SPI2 peripherals in master mode. It is assumed that the slave is always selected i.e nCS is always active-low. <br>
+► This is a bidirectional USART SPI gateway implemented for the STM32F407 using FreeRTOS. The gateway uses USART2 and SPI2 peripherals in master mode. It is assumed that the slave is always selected i.e nCS is always active-low. <br>
 ► The gateway allows communication between a USART device and a SPI device by transferring messages between them via stream buffers and queues. <br>
 ► Messages on USART and SPI can be sent asynchronously  - the SPI slave device can transmit a message at any time. <br>
 ► The system is capable of handling dynamic length frames. The frame format is strings ending with NULL. It is assumed that the SPI slave device there are no internal registers and other addressing.
